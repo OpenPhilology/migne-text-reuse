@@ -5,12 +5,14 @@
 .cache
 .history
 .lib/
-dist/*
-target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
+sbt/dist/*
+sbt/target/
+sbt/lib_managed/
+sbt/src_managed/
+sbt/project/boot/
+sbt/project/plugins/project/
+sbt/project/target/
+sbt/project/project/
 
 # Scala-IDE specific
 .scala_dependencies

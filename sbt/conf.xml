@@ -1,0 +1,14 @@
+<migne>
+    <id></id>
+    <files>
+        <source>../data/src</source>
+        <target>../data/trg</target>
+        <result>../data/res</result>
+        <temporary>../data/tmp</temporary>
+    </files>
+    <classes>
+        <import>de.dariah.reuse.io.IdentityFileTransformer</import>
+        <alignment>de.dariah.reuse.align.JavaRETASAligner</alignment>
+        <export>de.dariah.reuse.io.IdentityFileTransformer</export>
+    </classes>
+</migne>
