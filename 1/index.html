@@ -3,7 +3,7 @@
 <title>Corpus Scriptorum Ecclesiasticorum Latinorum</title>
 <style>
 
-@import url(css//openmigne.css);
+@import url("../css/openmigne.css");
 
 .background {
   fill: #eee;
@@ -18,7 +18,7 @@ text.active {
 }
 
 </style>
-<script src="js//d3.v2.min.js"></script>
+<script src="../js/d3.v2.min.js"></script>
 </head>
 <body>
 <header>
@@ -61,7 +61,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("data/csfds.alignments.json", function(csel) {
+d3.json("../data/csel.alignments.json", function(csel) {
   var matrix = [],
       nodes = csel.nodes,
       n = nodes.length;
@@ -188,7 +188,7 @@ var max = 0;
 </p><footer>
   <aside>Created for</aside>
   <a href="http://dariah.eu/" rel="organization">DARIAH-DE</a> @ <a href="http://www.dh.uni-leipzig.de/" rel="organization">Alexander von Humboldt Lehrstuhl für Digital Humanities, Leipzig</a>
-<div><img src="img/logo_dariahde.png" height="80px" style="margin:20px"/><img src="img/logo_opp.png" height="80px" style="margin:20px"/></div>
+<div><img src="../img/logo_dariahde.png" height="80px" style="margin:20px"/><img src="../img/logo_opp.png" height="80px" style="margin:20px"/></div>
 </footer>
 
 </body></html>
